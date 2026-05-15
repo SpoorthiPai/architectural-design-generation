@@ -2,23 +2,35 @@
 
 ## Overview
 
-The dataset used in this project was created and curated by the project team for generating architectural designs from textual descriptions using Machine Learning and Generative AI techniques.
+This dataset was created and curated as part of a Machine Learning research project focused on generating architectural designs from textual descriptions using Generative AI techniques.
 
-The dataset contains paired architectural images and highly detailed textual captions describing structural, architectural, environmental, and visual characteristics of buildings.
+The dataset contains architectural exterior images paired with detailed descriptive captions designed for text-to-image generation workflows, semantic understanding, and architectural visualization tasks.
 
-This dataset was designed specifically for text-to-image architectural generation tasks and focuses on improving descriptive richness, architectural diversity, and contextual understanding for generative models.
+The primary objective of this dataset is to support AI models in understanding complex architectural descriptions and generating visually coherent architectural designs.
 
 ---
 
-# Dataset Objectives
+# Dataset Development Process
 
-The primary objectives of this dataset are:
+The dataset creation process involved multiple stages of collection, cleaning, filtering, caption generation, and preprocessing.
 
-- Generate architectural designs from textual prompts
-- Improve semantic understanding of architectural descriptions
-- Support text-to-image generation workflows
-- Enable training and evaluation of generative AI models
-- Explore AI-assisted architectural visualization
+## Initial Dataset Collection
+
+- More than 10,000 architectural images were initially collected from multiple architectural categories and design styles.
+
+## Dataset Cleaning and Filtering
+
+- Duplicate, low-quality, noisy, and irrelevant images were removed through manual and preprocessing-based filtering techniques.
+
+## Final Curated Dataset
+
+- The cleaned dataset was reduced to approximately 5,000 high-quality architectural images suitable for model training and experimentation.
+
+## Caption Generation
+
+- Detailed architectural captions were generated for more than 2,000 images within the dataset.
+
+These captions were structured to provide rich semantic information for text-to-image generation tasks.
 
 ---
 
@@ -27,114 +39,89 @@ The primary objectives of this dataset are:
 The dataset includes:
 
 - Architectural exterior images
-- Detailed image captions
+- Detailed architectural captions
+- Multiple architectural styles
 - Structural descriptions
+- Roof and façade information
 - Material descriptions
-- Roof and façade descriptions
-- Environmental context information
-- Lighting and viewpoint descriptions
-- Architectural style classifications
+- Environmental context descriptions
+- Lighting and scene information
+- Camera angle and perspective details
+
+---
+
+# Architectural Categories
+
+The dataset contains diverse architectural styles including:
+
+- Modern Villas
+- Traditional Japanese Machiya Houses
+- Colonial Architecture
+- Contemporary Residences
+- Farmhouses
+- Bamboo Structures
+- Nordic Cabins
+- Urban Buildings
+- Apartments
+- Minimalist Concrete Houses
+- Skyscrapers
+- Rural Vernacular Structures
+- Mixed-use Buildings
 
 ---
 
 # Captioning Methodology
 
-Each image in the dataset is paired with a highly detailed descriptive caption.
+The captions were designed to provide highly descriptive semantic information for training generative models.
 
-The captions include:
+Each caption may include:
 
 - Architectural style
-- Roof structure and geometry
-- Building materials
-- Façade symmetry and layout
-- Window and door descriptions
+- Number of visible floors
+- Roof type and geometry
+- Exterior wall materials
+- Window and door arrangements
+- Façade symmetry
 - Color palette
 - Environmental surroundings
 - Lighting conditions
 - Camera angle and framing
 - Scale references
 
-This detailed captioning approach was designed to improve semantic alignment between textual prompts and generated architectural outputs.
+This detailed captioning strategy improves alignment between textual prompts and generated visual outputs.
 
 ---
 
 # Example Caption Structure
 
-The captions describe multiple architectural attributes including:
+The captions are stored in JSON format using image filenames as keys and descriptive architectural annotations as values.
 
-- Building type
-- Number of visible floors
-- Roof style and pitch
-- Exterior wall materials
-- Window and door arrangements
-- Architectural symmetry
-- Environmental surroundings
-- Lighting conditions
-- Perspective and camera angle
+Example:
 
-Example categories include:
-
-- Modern Villas
-- Traditional Japanese Machiya Houses
-- Colonial Architecture
-- Rural Houses
-- Urban Buildings
-- Apartments
-- Skyscrapers
-- Nordic Cabins
-- Farmhouses
-- Mixed-use Buildings
-
----
-
-# Dataset Categories
-
-The dataset contains diverse architectural styles such as:
-
-- Modern Architecture
-- Traditional Japanese Architecture
-- Colonial Structures
-- Contemporary Villas
-- Rural and Vernacular Housing
-- Urban Residential Buildings
-- Commercial Structures
-- High-rise Buildings
-- Scandinavian and Nordic Cabins
-- Minimalist Concrete Houses
-- Eco-friendly and Bamboo Structures
-
----
-
-# Image Characteristics
-
-The dataset includes architectural images with:
-
-- Multiple façade types
-- Different roof geometries
-- Various material combinations
-- Diverse environmental settings
-- Seasonal variations
-- Multiple architectural scales
-- Daylight and natural illumination conditions
+```json
+{
+  "Modern_villa_00001.jpg": "Detailed architectural description..."
+}
+```
 
 ---
 
 # Dataset Preparation Workflow
 
 ## 1. Image Collection
-Architectural images representing multiple building styles and regions were collected and organized.
+Architectural images representing multiple building styles and environmental contexts were collected.
 
-## 2. Image Filtering
-Low-quality, duplicated, and irrelevant images were removed.
+## 2. Dataset Cleaning
+Duplicate and low-quality images were removed to improve dataset consistency.
 
 ## 3. Caption Generation
-Detailed captions were manually curated/generated to describe architectural and environmental features.
+Detailed captions describing architectural and environmental characteristics were generated.
 
 ## 4. Data Structuring
-Images and captions were paired and organized systematically for model training.
+Images and captions were paired systematically for model training workflows.
 
-## 5. Preprocessing
-Images were resized, normalized, and prepared for generative model workflows.
+## 5. Image Preprocessing
+Images were resized, normalized, and prepared for generative AI pipelines.
 
 ---
 
@@ -150,36 +137,27 @@ dataset/
 
 ---
 
-# Captions
-
-The dataset includes more than 2000 detailed architectural captions paired with corresponding images.
-
-Captions are structured in JSON format using image filenames as keys and descriptive architectural annotations as values.
-
-Example format:
-
-```json
-{
-  "Modern_villa_00001.jpg": "Detailed architectural description..."
-}
-```
-
----
-
-# Sample Dataset Files
+# Repository Samples
 
 This repository includes:
 
-- Representative sample images
-- Sample captions
+- 27 representative sample architectural images
+- Sample caption files
 - Dataset documentation
 - Dataset structure overview
+
+The uploaded sample images demonstrate the diversity of architectural styles used in the complete dataset.
 
 ---
 
 # Storage Note
 
-The complete dataset size is approximately 2.7 GB.
+The complete dataset contains approximately:
+
+- 5,000 curated architectural images
+- 2,000+ detailed architectural captions
+
+The total dataset size is approximately 2.7 GB.
 
 Due to GitHub storage limitations, only representative samples of the dataset are included in this repository.
 
@@ -192,10 +170,10 @@ This dataset can support:
 - Text-to-image generation
 - Architectural visualization
 - Generative AI research
-- NLP and vision-language tasks
+- NLP and Computer Vision tasks
 - Diffusion model training
-- Prompt engineering research
-- Design automation systems
+- Prompt engineering workflows
+- AI-assisted design systems
 
 ---
 
@@ -212,14 +190,14 @@ This dataset can support:
 
 # Research Context
 
-This dataset was developed as part of an academic Machine Learning research project focused on generating architectural designs from textual descriptions.
-
-The project explores the intersection of:
+This dataset was developed as part of an academic research project exploring the intersection of:
 
 - Artificial Intelligence
 - Computer Vision
 - Natural Language Processing
 - Architectural Design Automation
+
+The project focuses on generating architectural layouts and design concepts directly from textual prompts using Machine Learning and Generative AI models.
 
 ---
 
@@ -227,4 +205,3 @@ The project explores the intersection of:
 
 - Spoorthi Pai
 - Project Team Members
-
