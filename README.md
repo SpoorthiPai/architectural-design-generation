@@ -35,7 +35,7 @@ swimming pool reflecting the sky,
 landscaped garden, sunlit exterior "
 ```
 
-AI-generated architectural output.
+AI-generated architectural output. (screenshots)
 
 <img width="743" height="644" alt="image" src="https://github.com/user-attachments/assets/e9ed186c-b5c7-4e94-9138-d24289c9a257" />
 
@@ -255,7 +255,7 @@ All generated outputs include CAD-inspired architectural visualizations intended
 - Conceptual drafting representations
 - Architectural planning references
 
-Examples : 
+Examples (screenshots) : 
 
 <img width="1285" height="627" alt="Screenshot 2026-05-15 015141" src="https://github.com/user-attachments/assets/8a415214-46ee-4649-9058-47a001fee84d" />
 
