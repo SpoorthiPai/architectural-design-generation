@@ -35,13 +35,13 @@ swimming pool reflecting the sky,
 landscaped garden, sunlit exterior "
 ```
 
-↓
-<img width="743" height="644" alt="image" src="https://github.com/user-attachments/assets/e9ed186c-b5c7-4e94-9138-d24289c9a257" />
-
 AI-generated architectural output.
 
-text
-"Full front view of a cozy Nordic 
+<img width="743" height="644" alt="image" src="https://github.com/user-attachments/assets/e9ed186c-b5c7-4e94-9138-d24289c9a257" />
+
+```text
+"
+Full front view of a cozy Nordic 
 cabin in a snowy pine forest, smoke 
 curling from the chimney, snow
 covered roof and trees, warm golden 
@@ -50,16 +50,18 @@ light from windows "
 
 <img width="724" height="649" alt="image" src="https://github.com/user-attachments/assets/abec79f0-4f06-4272-9782-594939496ab3" />
 
-text
-"Japanese Machiya house with 
+```text
+"
+Japanese Machiya house with 
 wooden lattice windows, sliding 
 doors "
 ```
 
 <img width="808" height="617" alt="image" src="https://github.com/user-attachments/assets/3b45fa79-ff7e-4650-ae5b-b50dff494d3b" />
 
-text
-"A grand colonial mansion with white 
+```text
+"
+A grand colonial mansion with white 
 pillars, expansive garden with 
 trimmed hedges, red-tiled roof, 
 symmetrical windows, soft natural 
@@ -68,8 +70,9 @@ lighting, wide-angle exterior view "
 
 <img width="837" height="671" alt="image" src="https://github.com/user-attachments/assets/59fd8c4f-15e5-4039-9b24-c1195941aefe" />
 
-text
-"African village with mud huts 
+```text
+"
+African village with mud huts 
 surrounded with small green plants "
 ```
 
