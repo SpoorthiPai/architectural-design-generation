@@ -257,7 +257,7 @@ All generated outputs include CAD-inspired architectural visualizations intended
 
 Examples : 
 
-<img width="896" height="370" alt="Screenshot 2026-05-15 015829" src="https://github.com/user-attachments/assets/4dd4875e-678b-4706-bbf8-1411604f9369" />
+<img width="1285" height="627" alt="Screenshot 2026-05-15 015141" src="https://github.com/user-attachments/assets/8a415214-46ee-4649-9058-47a001fee84d" />
 
 
 <img width="1284" height="633" alt="Screenshot 2026-05-15 015019" src="https://github.com/user-attachments/assets/b202daa8-a6c4-44fc-b7a7-7a19136754c7" />
