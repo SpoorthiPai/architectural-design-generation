@@ -300,6 +300,7 @@ Potential applications include:
 - Interactive user interface
 - Cloud deployment
 - Advanced fine-tuning workflows
+- Improved CAD outputs
 
 ---
 
